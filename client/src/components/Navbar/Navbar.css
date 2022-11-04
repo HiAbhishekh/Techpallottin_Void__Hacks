@@ -1,0 +1,105 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: green;
+    margin-left: 15px;
+}
+.Left-side>div>img{
+    width: 10rem;
+}
+
+.Search{
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    height: 2.8rem;
+    background-color: #d0d0d0;
+    border-radius: 50px;
+}
+
+.Search>input{
+    display: flex;
+    width: 26.5rem;
+    margin-left: 15px;
+    outline: none;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    
+}
+
+.Search>button{
+    background: transparent;
+    border: none;
+    margin-right: 4px;
+}
+
+.Search>button:hover{
+    cursor: pointer;
+}
+
+.s-icon:hover{
+    cursor: pointer;
+}
+
+.Right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.Right-side>ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8rem;
+    gap: 3rem;
+}
+
+.Right-side>ul>li{
+    list-style: none;
+}
+
+.Registration{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: none;
+    border-radius: 50px;
+    background: darkgray;
+    transition: all 100ms ease-out;
+    padding: 10px 20px;
+  }
+
+  .button:hover{
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid grey;
+  }
+
+ .signin{
+    border: 2px solid grey;
+    background: transparent;
+  }
+  .signin:hover{
+    cursor: pointer;
+    background: darkgray;
+    border: none;
+  }

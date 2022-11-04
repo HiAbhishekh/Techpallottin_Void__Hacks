@@ -1,0 +1,89 @@
+.Slider{
+    height: 340px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftarrow,.rightarrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.leftarrow,.rightarrow:hover{
+    cursor: pointer;
+}
+
+.slidee{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    overflow: hidden;
+    /* -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s; */
+}
+
+
+
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.forImage{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.slide_img{
+    height: 340px;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.des{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    place-items: start;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11px;
+}
+
+.des>.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
