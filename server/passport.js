@@ -1,8 +1,9 @@
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 const passport = require("passport");
 
-const GOOGLE_CLIENT_ID = "1070272985519-k92f43vkvjmv2f00thfd6tmv0ogdluv2.apps.googleusercontent.com"
-const GOOGLE_CLIENT_SECRET = "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"
+
+const GOOGLE_CLIENT_ID = "576220044050-vav1d7nd5r90jh0hiqk3jp451tk3vrvd.apps.googleusercontent.com"
+const GOOGLE_CLIENT_SECRET ="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"
 
 passport.use(
     new GoogleStrategy(

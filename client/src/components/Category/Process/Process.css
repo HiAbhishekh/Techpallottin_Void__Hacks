@@ -1,0 +1,74 @@
+.Process{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem;
+}
+
+.process-h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 440px; */
+}
+
+.process-h>h1{
+    font-size: 1.6rem;
+}
+
+.process-h>p{
+    margin-top: 0;
+}
+
+.process-c{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 1rem 10rem;
+    gap: 2rem;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+.div1>p{
+    color: grey;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.div2>p{
+    color: grey;
+}
+.div3>p{
+    color: grey;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.process-c>.div1>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.process-c>.div2>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.process-c>.div3>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}

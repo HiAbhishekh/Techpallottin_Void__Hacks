@@ -12,7 +12,7 @@
     align-items: center;
     width: 72rem;
     height: 26rem;
-    background-color: #ebeeef;
+    background-color: #bcbdbe;
     border-radius: 10px;
     gap: 1rem;
 }
@@ -28,7 +28,7 @@
     
     width: 266px;
     height: 288px;
-    border: 2px solid #000;
+    border: 1px solid grey;
     background: white;
 }
 
@@ -56,5 +56,7 @@
 }
 
 .container>.list>div>span:nth-of-type(2){
-    font-size: 12px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: gray;
 }

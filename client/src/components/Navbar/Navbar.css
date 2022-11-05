@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem ;
+    padding-bottom: 0;
 }
 
 .Left-side{
@@ -68,6 +70,9 @@
 
 .Right-side>ul>li{
     list-style: none;
+}
+.Right-side>ul>li:hover{
+    cursor: pointer;
 }
 
 .Registration{

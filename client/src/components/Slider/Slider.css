@@ -1,9 +1,11 @@
 .Slider{
-    height: 340px;
-    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 340px;
+    width: 100%;
+    background: white;
+    /* padding: 1rem 1rem; */
 }
 
 .leftarrow,.rightarrow{
@@ -31,6 +33,10 @@
     -webkit-animation-duration: 2s;
     animation-name: fade;
     animation-duration: 2s; */
+}
+
+.slide:hover{
+    cursor: pointer;
 }
 
 
@@ -73,9 +79,7 @@
 .des{
     display: flex;
     flex-direction: column;
-    flex: 1;
     place-items: start;
-    justify-content: center;
     align-items: center;
     margin-left: 11px;
 }
@@ -83,7 +87,7 @@
 .des>.btn{
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 

@@ -8,5 +8,6 @@
     display: flex;
     font-weight: bold;
     margin-top: 0.4rem;
-    margin-bottom: -0.4rem;
-    margin-left: 3rem;}
+    /* margin-bottom: -0.4rem; */
+    margin-left: 3rem;
+}
